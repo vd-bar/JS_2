@@ -17,16 +17,7 @@ function spClickListening (event) {
         }
 
     }
-    else{
-        ss.classList.add('active');
 
-        ss.addEventListener('transitionend',fun);
-    }
-}
-function fun(event) {
- var t=event.target;
-   // t.removeEventListener('transitionend',fun);
-    t.classList.remove('active');
 }
 
 
